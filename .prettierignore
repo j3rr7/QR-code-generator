@@ -1,0 +1,9 @@
+# Ignore artifacts:
+.env
+build
+coverage
+public
+node_modules
+styles/tailwind.css
+
+.eslintrc.js
