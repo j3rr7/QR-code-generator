@@ -2,7 +2,7 @@ import type { LinksFunction, ActionArgs } from '@remix-run/node'
 import { json } from '@remix-run/node'
 import { useActionData, Form } from '@remix-run/react'
 import * as QRCode from 'qrcode'
-import styles from '../../../styles/qr.css'
+import styles from '~/styles/qr.css'
 
 export const links: LinksFunction = () => [{ rel: 'stylesheet', href: styles }]
 
