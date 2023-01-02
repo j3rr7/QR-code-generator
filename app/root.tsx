@@ -8,8 +8,8 @@ import {
   ScrollRestoration,
 } from '@remix-run/react'
 
-import styles from '~/styles/tailwind.css'
-import appStyles from '~/styles/app.css'
+import styles from './styles/tailwind.css'
+import appStyles from './styles/app.css'
 
 export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: styles },
