@@ -21,6 +21,11 @@ This starts your app in development mode, rebuilding assets on file changes.
 
 ## Deployment
 
+Using Docker
+```sh
+docker run -p 3000:3000 --rm j3rr7/qr-gen-web:v1
+```
+
 First, build your app for production:
 
 ```sh
